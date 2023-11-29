@@ -1,0 +1,98 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean": {
+      "name": "clean",
+      "command": "pnpm clean",
+      "runAtStart": false
+    },
+    "clean:locks": {
+      "name": "clean:locks",
+      "command": "pnpm clean:locks",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": false
+    },
+    "coverage": {
+      "name": "coverage",
+      "command": "pnpm coverage",
+      "runAtStart": false
+    },
+    "cucumber": {
+      "name": "cucumber",
+      "command": "pnpm cucumber",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "pnpm e2e",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "pnpm format",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    ":prepare": {
+      "name": ":prepare",
+      "command": "pnpm :prepare",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "pnpm postinstall",
+      "runAtStart": false
+    },
+    "postinstall:components-assets": {
+      "name": "postinstall:components-assets",
+      "command": "pnpm postinstall:components-assets",
+      "runAtStart": false
+    },
+    "postinstall:themes-assets": {
+      "name": "postinstall:themes-assets",
+      "command": "pnpm postinstall:themes-assets",
+      "runAtStart": false
+    },
+    "serve": {
+      "name": "serve",
+      "command": "pnpm serve",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "pnpm start",
+      "runAtStart": true
+    },
+    "test": {
+      "name": "test",
+      "command": "pnpm test",
+      "runAtStart": false
+    },
+    "update": {
+      "name": "update",
+      "command": "pnpm update",
+      "runAtStart": false
+    },
+    "unused": {
+      "name": "unused",
+      "command": "pnpm unused",
+      "runAtStart": false
+    }
+  }
+}

@@ -14,7 +14,7 @@ export class AppComponent {
 
 	onKolibriButtonClick() {
 		console.log('Kolibri event')
-		 this.heroService.hero('onKolibriButtonClick')
+		this.heroService.hero('onKolibriButtonClick')
 	}
 
 	onButtonClick() {
