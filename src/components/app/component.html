@@ -31,7 +31,8 @@
 				<kol-icon _ariaLabel="" _icon="fa-solid fa-envelope"></kol-icon> E-Mail schreiben
 			</kol-link>
 		</kol-alert>
-		<kol-button [_on]="{onClick: onKolibriButtonClick }" _label="Klick mich!" ></kol-button>
+		<kol-button [_on]="{onClick: onKolibriButtonClick }" _label="Klick mich - onClick only! - Does not Work" ></kol-button>
+		<kol-button [_on]="buttonCallbacks" _label="Klick mich - with callback - works" ></kol-button>
 		<button (click)="onButtonClick()" >Native Button</button>
 	</main>
 </div>

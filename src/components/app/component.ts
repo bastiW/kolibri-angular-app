@@ -22,4 +22,11 @@ export class AppComponent {
 		this.heroService.hero('onButtonClick')
 	}
 
+	buttonCallbacks = {
+		onClick: () => {
+			console.log('Button event')
+			this.heroService.hero('buttonCallbacks - click')
+		}
+	};
+
 }
