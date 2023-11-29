@@ -67,6 +67,9 @@ devDependencies:
   cpy-cli:
     specifier: 5.0.0
     version: 5.0.0
+  cross-env:
+    specifier: 7.0.3
+    version: 7.0.3
   nightwatch-axe-verbose:
     specifier: 2.2.2
     version: 2.2.2
