@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 import IMG_FRAMEWORK from '../../assets/logo.angular.png';
 import {HeroService} from "../../app/hero.service";
+import {ButtonCallbacksPropType} from "@public-ui/components";
 
 @Component({
 	selector: 'app',
@@ -22,7 +23,7 @@ export class AppComponent {
 		this.heroService.hero('onButtonClick')
 	}
 
-	buttonCallbacks = {
+	buttonCallbacks: ButtonCallbacksPropType<any> = {
 		onClick: () => {
 			console.log('Button event')
 			this.heroService.hero('buttonCallbacks - click')
